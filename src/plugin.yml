@@ -1,0 +1,33 @@
+name: StandartCMDCommands
+author: arhangel
+main: ru.arhangel.StandartCMDCommands.Main
+version: 1.5
+
+commands:
+  starterkit:
+    description: Give starter kit to player
+    usage: /starterkit <Player>
+    permission-message: "Нет прав"
+    permission: loginmanager.givekit
+
+  gm:
+    description: Change a gamemode
+    usage: /gm <Player> [Mode]
+    permission-message: "Нет прав"
+    ermission: loginmanager.givegmet
+
+  home:
+    description: Set / Teleport to the home point
+    usage: /home <set>
+
+  spawn:
+    description: Teleport to spawn point
+    usage: /spawn
+
+  setspawn:
+    description: Set a spawn point
+    usage: /setspawn
+
+  setmessage:
+    description: Set a hello message
+    usage: /setmessage [site, servername, project] <message>

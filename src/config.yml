@@ -1,0 +1,17 @@
+hellomessage:
+  project: 'TestProject'
+  servername: 'TestSERVER'
+  site: 'http:/xxx.xxx/'
+
+locations:
+  Arhangell67:
+    x: 1
+    y: 1
+    z: 1
+    world: 1
+
+spawnPoint:
+  world: world
+  x: 1
+  y: 1
+  z: 1
